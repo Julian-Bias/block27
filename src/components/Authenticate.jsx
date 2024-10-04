@@ -28,10 +28,10 @@ export default function Authenticate({ token }) {
   }
   return (
     <div>
-      <h2>Authenticate!</h2>
+      <h2>Token Form</h2>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
-      <button onClick={handleClick} />
+      <button onClick={handleClick} type="submit">Authenticate</button>
     </div>
   );
 }
