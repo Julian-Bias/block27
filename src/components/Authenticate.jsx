@@ -32,7 +32,7 @@ export default function Authenticate({ token }) {
       <h2>Token Form</h2>
       {error && <p style={{ color: "red" }}>{error}</p>}
       {successMessage && <p style={{ color: "green" }}>{successMessage}</p>}
-      {username && <p>Good job, {username}!</p>}
+      {username && <p>Good job, {username}</p>}
       <button onClick={handleClick} type="submit">
         Authenticate
       </button>
